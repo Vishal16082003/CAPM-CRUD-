@@ -1,0 +1,6 @@
+ID;title;author;price;publishedDate;digitalCopy
+550e8400-e29b-41d4-a716-446655440000;"The Alchemist";"Paulo Coelho";399.00;1988-04-15T00:00:00Z;true
+6ba7b810-9dad-11d1-80b4-00c04fd430c8;"Atomic Habits";"James Clear";499.00;2018-10-16T00:00:00Z;true
+7c9e6679-7425-40de-944b-e07fc1f90ae7;"Clean Code";"Robert C. Martin";599.00;2008-08-01T00:00:00Z;true
+8f14e45f-ea3c-4d2f-9f9d-123456789abc;"The Pragmatic Programmer";"Andrew Hunt";699.00;1999-10-20T00:00:00Z;false
+9a1b2c3d-4e5f-6789-abcd-123456789012;"Rich Dad Poor Dad";"Robert Kiyosaki";349.00;1997-04-01T00:00:00Z;true
