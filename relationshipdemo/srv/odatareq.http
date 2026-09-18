@@ -1,0 +1,29 @@
+ GET http://localhost:4004/odata/v4/relsrv/SalesOrderHeaderSet
+
+###
+ GET http://localhost:4004/odata/v4/relsrv/SalesOrderItemsSet
+
+###
+
+POST http://localhost:4004/odata/v4/relsrv/SalesOrderHeaderSet
+Content-Type: application/json
+
+{
+  "description": "MY FIRST ORDER",
+  "item_details_comp": [
+    {
+      "product": "GEL Pen",
+      "quantity": 5
+    },
+    {
+      "product": "NOTEBOOKS",
+      "quantity": 5
+    },
+    {
+      "product": "LAPTOP BAG",
+      "quantity": 5
+    }
+  ]
+}
+###
+DELETE http://localhost:4004/odata/v4/relsrv/SalesOrderHeaderSet(2bec04d6-7fee-4ca4-9b13-11916d956888)
